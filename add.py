@@ -1,5 +1,8 @@
 import streamlit as st
-
+import pickle
+import numpy as np
+with open('Heart Disease Prediction.ipynb','rb') as file:
+    model=pickle.load(file)
 # Page Configuration
 st.set_page_config(page_title="Disease Prediction", layout="wide" ,page_icon="❤️")
 
