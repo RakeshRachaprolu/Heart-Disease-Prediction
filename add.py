@@ -10,6 +10,7 @@ menu = st.sidebar.radio("", ["Heart Disease",  "About"])
 # Function to display the Heart Disease Prediction UI
 def heart_disease_ui():
     st.markdown("<h2 style='text-align: center;'>Heart Disease Prediction</h2>", unsafe_allow_html=True)
+    st.write("### Author Rakesh R")
     st.write("### Please provide the details")
 
     # Form Inputs - Two Column Layout
